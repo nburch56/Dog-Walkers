@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+ 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                    <a class="navbar-brand" href="dogwalk.html">Dog Walkers</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+                    aria-controle="navbarNavDropdown" aira-expanded="false" aria-lavel="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="dogwalk.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="dogwalkabout.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="dogwalkinfo.html">Request Info</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>>
+            </div>
+            <div class="col-sm">
+                <div class="alert alert-primary" role="alert">
+                This is a guide on how to walk your dog.
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="alert alert-primary" role="alert">
+                <p>Steps for walking your dog:</p>
+                <ol>
+                    <li>Put leash on dog.</li>
+                    <li>Take dog outside.</li>
+                    <li>Walk around.</li>
+                    <li>Repeat Step 3 until dog is tired.</li>
+                    <li>Go back inside.</li>
+                    <li>Take leash off of dog.</li>
+                </ol>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="alert alert-primary" role="alert">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Supplies</th>
+                            <th scope="col">Locations</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">*</th>
+                            <td>Leash</td>
+                            <td>Neighborhood</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">*</th>
+                            <td>Collar</td>
+                            <td>Park</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">*</th>
+                            <td>Dog</td>
+                            <td>Mountain</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="alert alert-primary" role="alert">
+                    <p>Did you find this guide helpful?</p>
+                    <form>
+                        <div class="mb-3">
+                          <label for="firstname" class="form-label">First Name</label>
+                          <input type="email" class="form-control" id="firstname" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="lastname" class="form-label">Last Name</label>
+                          <input type="password" class="form-control" id="lastname">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="yes">
+                            <label class="form-check-label" for="yes">Yes</label>
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="no">
+                            <label class="form-check-label" for="no">No</label>
+                          </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form><br>
+                      <p>Thank you for your feedback!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
+
